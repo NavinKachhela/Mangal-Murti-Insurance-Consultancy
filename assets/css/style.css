@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@viewport {
+    zoom: 1.0;
+    width: extentto-zoom;
+}
+
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 /*CUSTOM CSS*/
 body {
     overflow-x: hidden;
@@ -257,6 +267,7 @@ h5 > .fa {
     animation-delay: 0.4s;
     animation-name: fadeInRight;
     animation-play-state: running;
+    margin-top: 8rem;
 }
 
 /*************************************
