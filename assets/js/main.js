@@ -11,4 +11,5 @@ var x = window.matchMedia("(max-width: 360px)")
 if (x.matches) {
     $('div').removeClass('py-5').addClass('py-2');
 }
+
 new WOW().init();
